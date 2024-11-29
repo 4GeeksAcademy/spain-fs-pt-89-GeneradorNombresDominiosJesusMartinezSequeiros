@@ -2,10 +2,12 @@ let pronoun = ["the", "our"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
-for (let p of pronoun) {
-  for (let a of adj) {
-    for (let n of noun) {
-      console.log(`${p}${a}${n}.com`);
+//entrega con los cambios en la legibilidad
+
+for (let pronounItem of pronoun) {
+  for (let adjItem of adj) {
+    for (let nounItem of noun) {
+      console.log(`${pronounItem}${adjItem}${nounItem}.com`);
     }
   }
 }
